@@ -223,7 +223,7 @@ class TabNetDecoder(torch.nn.Module):
             examples : one for regression, 2 for binary classification etc...
         n_d : int
             Dimension of the prediction  layer (usually between 4 and 64)
-        n_steps : int
+        n_steps : in
             Number of successive steps in the network (usually between 3 and 10)
         gamma : float
             Float above 1, scaling factor for attention updates (usually between 1.0 to 2.0)
